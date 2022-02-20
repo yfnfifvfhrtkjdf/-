@@ -131,7 +131,7 @@ public class Kotik {
         setPlay(play);
         if (satiety > 0) {
             satiety--;
-            System.out.println("Котик играет");
+          //  System.out.println("Котик играет");
             return true;
         } else {
             System.out.println("Котик просит есть ");
@@ -143,7 +143,7 @@ public class Kotik {
         setSleep(sleep);
         if (satiety > 0) {
             satiety--;
-            System.out.println("Котик спит");
+        //    System.out.println("Котик спит");
             return true;
         } else {
             System.out.println("Котик просит есть");
@@ -155,7 +155,7 @@ public class Kotik {
         setWash(wash);
         if (satiety > 0) {
             satiety--;
-            System.out.println("Котик умывается");
+        //    System.out.println("Котик умывается");
             return true;
         } else {
             System.out.println("Котик просит есть");
@@ -167,7 +167,7 @@ public class Kotik {
         setWalk(walk);
         if (satiety > 0) {
             satiety--;
-            System.out.println("Котик гуляет");
+        //    System.out.println("Котик гуляет");
             return true;
         } else {
             System.out.println("Котик просит есть");
@@ -179,7 +179,7 @@ public class Kotik {
         setHunt(hunt);
         if (satiety > 0) {
             satiety--;
-            System.out.println("Котик охотится");
+          //  System.out.println("Котик охотится");
             return true;
         } else {
             System.out.println("Котик просит есть");
@@ -299,10 +299,10 @@ public class Kotik {
             }
             System.out.println(s);
         }
-        break;
             }
         return myArray;
         }
          }
+
 
 
