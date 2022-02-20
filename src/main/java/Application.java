@@ -8,10 +8,8 @@ public class Application {
         Kotik kotic2 = new Kotik();
         kotic2.setName("Torry");
         kotic2.setVoice("Meow");
-        kotic2.setSatiety(10);
+        kotic2.setSatiety(15);
         kotic2.setWeight(3);
-        kotic2.eat(kotic2.getSatiety());
-        kotic1.liveAnotherDay();
         kotic2.liveAnotherDay();
         System.out.println(kotic1.getVoice());
         System.out.println(kotic2.getVoice());
